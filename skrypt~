@@ -1,8 +1,0 @@
-#!/bin/bash
-
-git add .
-read x
-git commit -am "$@"
-git push origin master
-
-
