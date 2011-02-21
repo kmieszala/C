@@ -1,9 +1,8 @@
 #!/bin/bash
 
-n="$1"
-
-gif add .
-gif commit -am "proba ze skryptem"
+git add .
+read x
+git commit -am "$@"
 git push origin master
 
 
