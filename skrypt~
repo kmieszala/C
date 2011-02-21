@@ -1,0 +1,9 @@
+#!/bin/bash
+
+n="$1"
+
+gif add .
+gif commit -am "proba ze skryptem"
+git push origin master
+
+
