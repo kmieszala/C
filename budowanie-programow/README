@@ -1,1 +1,9 @@
 1. Utworzyło pliki z rozszerzeniem .o .
+2. Jest konieczne istnienie pliku biblioteka.c ponieważ wyskakuje  błąd związany z referencją do procedury hej
+3. Dodanie pliku definicje.h nie zmienia komunikatów.
+4. Polecenie gcc -o prog4 glowny.o biblioteka.o kompiluje i łączy pliki w plik wykonywalny o nazwie prog4. Źródła nie są potrzebne do łączenia plików .o
+5. Rozwiazania w plikach zad5a.c i zad5b.c 
+6. Rozwiazanie w pliku zad6.c
+7. Rozwiazanie w pliku zad7.c
+8. Rozwiazanie w pliku zad8.c
+9. Rozwiazanie w pliku zad9.c

@@ -1,7 +1,9 @@
 /* plik glowny.c */
+#include "definicje.h"
+
 int main() {
-	  hej();
-	    return 0;
+	hej();
+	return 0;
 }
 
 
