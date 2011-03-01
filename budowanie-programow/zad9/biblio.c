@@ -6,15 +6,16 @@ float pierw(float x)
     return sqrt(x);
 }
 
-int main()
+void hej()
 {
-    double pocz, konc, krok, w;
+
+    float pocz, konc, krok, w;
     printf("Podaj wartość początkową: ");
-    scanf("%lf", &pocz);
+    scanf("%f", &pocz);
     printf("Podaj wartosc koncowa: ");
-    scanf("%lf", &konc);
+    scanf("%f", &konc);
     printf("Podaj wartosc kroku: ");
-    scanf("%lf", &krok);
+    scanf("%f", &krok);
 
     if (pocz > konc) {
 	w = pocz;
@@ -25,13 +26,11 @@ int main()
 	krok *= -1.0;
     while (pocz <= konc) {
 	if (pocz < 0.0) {
-	    printf(" %.4lf brak\n", pocz);
+	    printf(" %.4f brak\n", pocz);
 	} else {
-	    printf(" %.4lf %.4lf\n", pocz, pierw(pocz));
+	    printf(" %.4f %.4f\n", pocz, pierw(pocz));
 	}
 
-	pocz =pocz+krok;
+	pocz = pocz + krok;
     }
-
-    return 0;
 }

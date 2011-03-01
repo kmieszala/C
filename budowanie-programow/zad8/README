@@ -1,0 +1,11 @@
+zad8
+Napisz program, który prosi użytkownika o wprowadzenie trzech liczb z klawiatury, a następnie wypisze sumę, iloczyn, najmniejszą i największą z wprowadzonych liczb.
+
+Dialog na terminalu powinien wyglądać tak:
+
+Wprowadź trzy liczby całkowite: 1 2 3
+Suma wynosi: 6
+Iloczyn wynosi: 6
+Najmniejsza liczba to: 1
+Największa liczba to: 3
+

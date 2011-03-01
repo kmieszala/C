@@ -1,0 +1,6 @@
+zad5a
+Program ten wykonuje konwersję ze stopni na radiany
+   według wzoru: rad = 2 * PI * deg / 360
+zad5b
+Program ten dla dwóch liczb wczytanych z klawiatury
+   wypisuje, która z nich jest większa.
