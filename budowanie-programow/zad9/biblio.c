@@ -16,6 +16,7 @@ void hej()
     scanf("%f", &konc);
     printf("Podaj wartosc kroku: ");
     scanf("%f", &krok);
+    printf("\n");
 
     if (pocz > konc) {
 	w = pocz;

@@ -1,0 +1,1 @@
+char kod(char a);

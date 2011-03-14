@@ -39,6 +39,7 @@ void hej()
     int x, y, z, suma, iloczyn;
     printf("Wprowadź trzy liczby całkowite: ");
     scanf("%i %i %i", &x, &y, &z);
+    printf("\n");
     suma = x + y + z;
     printf("Suma wynosi: %i\n", suma);
     iloczyn = x * y * z;
