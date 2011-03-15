@@ -1,0 +1,1 @@
+int kod(int lata);
