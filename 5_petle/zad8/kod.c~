@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Niestety ubogie C nie posiada zmiennych typu boolowskich i jestem zmuszony uzyc typu int ( ojak ja nad tym ubolewam :< )
 
 /*
 // startingDots - od ilu kropek zaczynasz
