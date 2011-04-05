@@ -2,14 +2,14 @@ CFLAGS = -Wall
 
 full: testowy test
 
-testowy: glowny.o fun.o
-	gcc -o testowy glowny.o fun.o
+testowy: glowny.o kod.o
+	gcc -o testowy glowny.o kod.o
 
-glowny.o: fun.c def.h
+glowny.o: kod.c def.h
 
 clean:
-	rm *~ *.out testowy
+	rm *~ testowy *.out
 
 test:
-	./testowy < test > wynik.out
-	rm *.o test
+	./testowy > wynik.out
+	rm *.o testowy *~
