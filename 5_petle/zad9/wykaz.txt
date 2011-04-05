@@ -1,5 +1,4 @@
-Wrzesien 330 20 4
-Pazdziernik 434 25 5
-listopad 340 40 6
-grudzien 430 31 4
-
+Wrzesien 330 20 4.72
+Pazdziernik 434 20 5.02
+Listopad 340 37 4.98
+Grudzien 430 31 4.89

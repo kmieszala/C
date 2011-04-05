@@ -39,8 +39,8 @@ void oblicz()
 {
     float spalanie;
     int i = 0;
-    int sumakil = 0;
-    int sumpal = 0;
+    float sumakil = 0;
+    float sumpal = 0;
     float koszt = 0;
     float sumakoszt = 0;
     while (i < ilosc) {
@@ -50,12 +50,13 @@ void oblicz()
 	sumakoszt = sumakoszt + koszt;
 	i = i + 1;
     }
-    spalanie = sumakil / sumpal;
+    spalanie = sumpal/sumakil * 100;
     sumakoszt = sumakoszt / sumakil;
-    printf("spalanie na 100km:%f\n", spalanie);
-    printf("lacznie km: %d\n", sumakil);
-    printf("lacznie paliwa %d\n", sumpal);
-    printf("koszt na 1km(zl) %f\n", sumakoszt);
+    printf("Spalanie na 100km: %.2f\n", spalanie);
+    printf("Lacznie km: %.0f\n", sumakil);
+    printf("Lacznie paliwa: %.0f\n", sumpal);
+    printf("Koszt na 1km(zl): %.2f\n", sumakoszt);
+    printf("Koszt na 100km(zl): %.2f\n", sumakoszt*100);
 }
 
 void drukuj()
